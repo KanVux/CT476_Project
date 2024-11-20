@@ -9,7 +9,7 @@ router.route("/")
     .delete(books.deleteAll)
 
 router.route("/favorite")
-    .get(books.findAllFavourite)
+    .get(books.findAllFavorite)
 
 router.route("/:id")
     .get(books.findOne)
